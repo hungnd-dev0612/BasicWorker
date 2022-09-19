@@ -1,0 +1,15 @@
+
+{
+java:S1488@"^Immediately return this expression instead of assigning it to the temporary variable "result".(œşú8í ª´0
+m
+java:S3008"PRename this field "Numss" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â‚Ô«8ı ª´0
+S
+java:S1172""1Remove this unused method parameter "jsonObject".(ØºÓÖúÿÿÿÿ8ÜÂª´0
+2
+java:S34575"Not enough arguments.(’Ù¶õ8Ø‚ ª´0
+`
+java:S1128">Remove this unused import 'io.vertx.core.shareddata.LocalMap'.(òÈ¬úøÿÿÿÿ8Ú‚ ª´0
+]
+java:S1128	"@Remove this unused import 'io.vertx.core.shareddata.SharedData'.(¬ªÒË8Û‚ ª´0
+F
+java:S1068")Remove this unused "Numss" private field.(â‚Ô«8Ü‚ ª´0

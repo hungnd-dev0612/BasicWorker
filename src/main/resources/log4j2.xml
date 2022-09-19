@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration status="warn">
+    <Appenders>
+        <!-- Console appender configuration -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%highlight{%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] %msg%n}{FATAL=red, ERROR=red, WARN=yellow bold, INFO=#69F69C, DEBUG=#3A8CF5, TRACE=blue}"
+                    disableAnsi="false"/>
+        </Console>
+
+
+    </Appenders>
+    <Loggers>
+        <!-- Root logger referring to console appender -->
+        <Root level="debug">
+            <AppenderRef ref="console"/>
+            <!--            <AppenderRef ref="console1"/>-->
+        </Root>
+    </Loggers>
+</Configuration>
+
